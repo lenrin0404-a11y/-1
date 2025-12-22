@@ -1,0 +1,64 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Noto Sans TC", Arial, sans-serif;
+}
+
+
+html, body {
+height: 100%;
+scroll-behavior: smooth;
+}
+
+
+section {
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 80px;
+}
+
+
+.content {
+  max-width: 640px;   /* 文字區塊自動縮窄 */
+  width: 100%;
+}
+
+
+
+.work-image {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+
+  display: block;
+  margin: 32px 0 32px auto; /* 關鍵：靠右 */
+
+}
+
+
+
+
+
+h1 { font-size: 48px; margin-bottom: 24px; }
+h2 { font-size: 36px; margin-bottom: 20px; }
+p { font-size: 18px; line-height: 1.8; }
+h3 { font-size: 18px; line-height: 1.8;color: rgb(255, 0, 0);}
+
+
+.group-1 { background: #f4f4f4; }
+.group-2 { background: #e9eef2; }
+.group-3 { background: #f4f4f4; }
+
+
+.back-home {
+display: inline-block;
+margin-top: 40px;
+padding: 12px 24px;
+border: 1px solid #000;
+color: #000;
+text-decoration: none;
+}
